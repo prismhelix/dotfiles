@@ -12,41 +12,32 @@ URxvt.clipboard.copycmd:  xsel -ib
 URxvt.clipboard.pastecmd: xsel -ob
 URxvt*.transparent: true
 ! URxvt*.shading: 0 to 99 darkens, 101 to 200 lightens
-URxvt*.shading: 50
-
+URxvt*.shading: 25
+URxvt.font: xft:terminus:size=8
 URxvt.scrollBar: false
 
-#define base00 #181818
-#define base01 #282828
-#define base02 #383838
-#define base03 #585858
-#define base04 #b8b8b8
-#define base05 #d8d8d8
-#define base06 #e8e8e8
-#define base07 #f8f8f8
-#define base08 #ab4642
-#define base09 #dc9656
-#define base0A #f7ca88
-#define base0B #a1b56c
-#define base0C #86c1b9
-#define base0D #7cafc2
-#define base0E #ba8baf
-#define base0F #a16946
+*foreground: #eaeaea
+*background: #000000
+*cursorColor: #aeafad
+*color0: #000000
+*color1: #912226
+*color2: #778900
+*color3: #ae7b00
+*color4: #1d2594
+*color5: #682a9b
+*color6: #2b6651
+*color7: #929593
+*color8: #666666
+*color9: #cc6666
+*color10: #b5bd68
+*color11: #f0c674
+*color12: #81a2be
+*color13: #b294bb
+*color14: #8abeb7
+*color15: #ecebec
 
-*.foreground:   base05
-*.background:   base00
-*.cursorColor:  base05
 
-*.color0:       base00
-*.color1:       base08
-*.color2:       base0B
-*.color3:       base0A
-*.color4:       base0D
-*.color5:       base0E
-*.color6:       base0C
-*.color7:       base05
 
-*.color8:       base03
-*.color9:       base09
-*.color10:      base01
-*.color11:      ba
+
+
+

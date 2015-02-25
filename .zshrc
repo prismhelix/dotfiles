@@ -14,7 +14,9 @@ compinit
 autoload -U promptinit
 promptinit
 
-prompt elite2
+# prompt is from z3bra.org. He has a great blog. you should check him out.
+PROMPT=" %{$fg_bold[yellow]%} »  "
+RPROMPT="%{$fg[black]%}%M:%{$fg_bold[yellow]%}%~%{$reset_color%}   "
 
 [[ -n "${key[Home]}"     ]]  && bindkey  "${key[Home]}"     beginning-of-line
 [[ -n "${key[End]}"      ]]  && bindkey  "${key[End]}"      end-of-line
